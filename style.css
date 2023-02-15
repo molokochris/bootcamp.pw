@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* width: 100%; */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#navbar {
+    width: 100%;
+    background-color: whitesmoke;
+    padding: 1.5rem 3.5rem;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+nav a:hover {
+    border-bottom: 2px solid #627faa;
+}
+a {
+    text-decoration: none;
+    color: #627faa;
+}
+a:hover {
+    color: tomato;
+}
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+    color: #627faa;
+    background-color: #f8f8f8;
+}
+p {
+    color: rgb(83, 82, 82);
+}
+main {
+    padding-left: 8px;
+}
+video {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 98%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+    filter: opacity(50%);
+}
+#Bio {
+    width: 70%;
+    color: rgb(83, 82, 82);
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+input, textarea {
+    border: solid 1px #627faa;
+    padding: 1%;
+    margin-bottom: 2%;
+    outline: none;
+    border-radius: 4px;
+}
+input:active {
+    color: rgb(83, 82, 82);
+}
+input[type="email"]:invalid::after {
+    content: "Please enter a  valid  email address!";
+    border: solid 1px tomato;
+}
+button {
+    width: 10%;
+    background-color: #627faa;
+    border: none;
+    padding: 1%;
+    font-weight: bolder;
+    color: #f8f8f8;
+    border-radius: 5px;
+}
+button:hover {
+    width: 11%;
+    background-color: tomato;
+}
+textarea{
+    resize: none;
+}
+footer {
+    width: 100%;
+    padding: 8px;
+    background-color: whitesmoke;
+    border-radius: 20px 0 0 0;
+}
